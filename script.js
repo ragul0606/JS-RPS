@@ -17,7 +17,7 @@ function playGame(userInput) {
     } else {
       console.log(`Game DRAW`);
     }
-    console.log(`!---------------GAME OVER---------------!`);
+    console.log(`!-----------------GAME OVER-----------------!`);
   } else {
     const userChoice = userInput;
     const computerChoice = getCompChoice();
@@ -86,7 +86,7 @@ function displayResults(userChoice, computerChoice, result) {
   console.log(`Result: ${result}`);
   console.log(`User Score: ${userScore}`);
   console.log(`Computer Score: ${computerScore}`);
-  console.log(`!---------------Next Game---------------!`);
+  console.log(`!-------------------Next Game-------------------!`);
 }
 
 // Game logic
